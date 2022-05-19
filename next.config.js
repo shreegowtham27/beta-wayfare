@@ -11,4 +11,9 @@ module.exports = ({
   images: {
     domains: ['source.unsplash.com'],
   },
+  env: {
+    "MAILGUN_API_KEY":process.env.MAILGUN_API_KEY,
+    "MAILGUN_DOMAIN":process.env.MAILGUN_DOMAIN,
+    "TO_EMAIL_ADDRESS" : process.env.TO_EMAIL_ADDRESS
+  },
 }

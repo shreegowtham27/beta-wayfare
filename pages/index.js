@@ -7,6 +7,7 @@ import MemoryBlock from "./components/memoryblock"
 // import DataFilter from "./components/datafilert"
 import LocationTypes from "./components/locationTypes"
 import { Container } from "react-bootstrap"
+import ContactForm from "./components/contact"
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
         <LocationTypes/>
       </Container>
       <MemoryBlock/>
+      <ContactForm/>
       {/* <h1 className='text-center text-primary'>Hello</h1> */}
     </div>
   )
