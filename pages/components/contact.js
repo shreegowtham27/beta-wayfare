@@ -30,7 +30,7 @@ export default function ContactForm() {
         <div id="contact">
             <main>
                 <Container>
-                    <h3 className='text-center mt-5'>Let's plan the Trip</h3>
+                    <h3 className="text-center mt-5">Let&#39;s plan the Trip</h3>
                     <Row className="justify-content-md-center">
                         <Col md={8}>
                         <Form onSubmit={handleSubmit}>
@@ -43,7 +43,7 @@ export default function ContactForm() {
                                 <Form.Label>Email address</Form.Label>
                                 <Form.Control type="email" onChange={e => setEmail(e.target.value)} placeholder="Enter Your Email Address" />
                                 <Form.Text className="text-muted">
-                                    We'll never share your email with anyone else.
+                                    We&apos;ll never share your email with anyone else.
                                 </Form.Text>
                             </Form.Group>
 
@@ -63,7 +63,7 @@ export default function ContactForm() {
                             </Form.Group>
 
                             <Button variant="primary" className="d-block mx-auto px-5" size="lg" type="submit">
-                                Let's Fly
+                                Let&#39;s Fly
                             </Button>
                         </Form>
                     </Col>
