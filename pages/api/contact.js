@@ -13,8 +13,9 @@ const headers = {
 }
 
 // Our cloud function
-const Contact = function(event, context, callback = () => {}) {
-    let data = JSON.parse(event.body)
+export default function Contact(event, res) {
+
+    let data = JSON.parse(JSON.stringify(event.body))
 
     let { name, email, destination, phone, city, error } = data
 
@@ -24,53 +25,45 @@ const Contact = function(event, context, callback = () => {}) {
 
     let errorMessage = null;
 
+    console.log(data)
+
     if (!data) {
         errorMessage = "No form data supplied";
         console.log(errorMessage);
-        callback(errorMessage);
-    }
-
+    } 
     if (!data.name) {
         errorMessage = "No NAME supplied";
         console.log(errorMessage);
-        callback(errorMessage);
     }
-
     if (!data.email) {
         errorMessage = "No EMAIL supplied";
         console.log(errorMessage);
-        callback(errorMessage);
+
     }
-    
     if (!data.phone) {
         errorMessage = "No Phone Number supplied";
         console.log(errorMessage);
-        callback(errorMessage);
+
     }
-    
     if (!data.destination) {
         errorMessage = "No Destination supplied";
         console.log(errorMessage);
-        callback(errorMessage);
+
     }
-    
     if (!data.city) {
         errorMessage = "No City supplied";
         console.log(errorMessage);
-        callback(errorMessage);
-    }
 
+    } 
     if (errorMessage){
         console.log("No Message Sent as " + errorMessage);
         // callback("No Message Sent as " + errorMessage);
-        callback(null, {
-            customErrorCode,
-            headers,
-            body: JSON.stringify(error),
+        // res("No Message Sent as " + errorMessage);
+        res.status(401).json({
+            "error":"401",
+            "body": errorMessage
         })
-    }
-
-    else{
+    }else{
         let mailOptions = {
             from: `${name} <${email}>`,
             to: process.env.TO_EMAIL_ADDRESS,
@@ -79,27 +72,22 @@ const Contact = function(event, context, callback = () => {}) {
             text: `${message}`,
         }
         
-        // It's really as simple as this, 
-        // directly from the Mailgun dashboard
-        
         mg.messages().send(mailOptions, (error, body) => {
             if (error) {
                 console.log(error)
-                callback(null, {
-                    errorCode,
-                    headers,
-                    body: JSON.stringify(error),
+                res.status(401).json({
+                    "errorCode": errorCode,
+                    "body": JSON.stringify(error),
                 })
             } else {
                 console.log(body)
-                callback(null, {
-                    successCode,
-                    headers,
-                    body: JSON.stringify(body),
+                res.status(200).json({
+                    "successCode":successCode,
+                    "body": "We have received your Message, We will reach you soon :)"
                 })
             }
         })
     }
 }
 
-export default Contact
+// export default Contact

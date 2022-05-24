@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import Head from 'next/head';
-// import styles from '../styles/Home.module.css';
 import { Form,Button, Container, Col, Row } from 'react-bootstrap';
+import SSRProvider from 'react-bootstrap/SSRProvider';
+import { ToastContainer,toast } from 'react-nextjs-toast'
+
 
 export default function ContactForm() {
     const [name, setName] = useState('');
@@ -10,7 +12,7 @@ export default function ContactForm() {
     const [phone, setPhone] = useState('');
     const [city, setCity] = useState('');
 
-    const handleSubmit = e => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         const data = {
             name,
@@ -19,14 +21,34 @@ export default function ContactForm() {
             phone,
             city
         };
-        fetch('/api/contact', {
-            method: 'post',
-            body: JSON.stringify(data),
-        });
-        console.log(data);
+
+        const response = await fetch("/api/contact",{
+                method:'post',
+                body: JSON.stringify(data),
+                headers:{
+                    'Content-Type':'application/json'
+                }
+            })
+        const responseData = await response.json()
+
+        console.log(responseData)
+
+        if (parseInt(responseData.successCode) === 200){(
+            toast.notify(responseData.body,{
+                duration: 5,
+                type: "success"
+            })
+        )}else{
+            console.log(responseData.body)
+            toast.notify(responseData.body,{
+                duration: 5,
+                type: "error"
+            })
+        }
     };
 
     return (
+        <SSRProvider>
         <div id="contact">
             <main>
                 <Container>
@@ -68,8 +90,10 @@ export default function ContactForm() {
                         </Form>
                     </Col>
                 </Row>
+                <ToastContainer />
             </Container>
             </main>
         </div>
+            </SSRProvider>
     );
 }
