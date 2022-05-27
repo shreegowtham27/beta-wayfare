@@ -29,7 +29,7 @@ const LocationTypes=()=>{
                             <Tab.Pane eventKey="all">
                                 {/* <Sonnet /> */}
                                 <p>Ullamco magna aute ea laborum labore. Consequat deserunt ad occaecat commodo non duis. Ullamco enim aliquip in eiusmod laboris excepteur aliqua voluptate ea velit. Cupidatat ex officia eu excepteur ex voluptate esse dolor fugiat nulla laborum sunt.</p>
-                                <Row>
+                                <Row xs={1} md={4} className="mx-auto">
                                     <Col><Image width={200} height={200} src="https://source.unsplash.com/random/200x200/?beach"/></Col>
                                     <Col><Image width={200} height={200} src="https://source.unsplash.com/random/200x200/?desert"/></Col>
                                     <Col><Image width={200} height={200} src="https://source.unsplash.com/random/200x200/?hills"/></Col>
