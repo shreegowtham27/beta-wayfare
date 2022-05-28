@@ -57,14 +57,14 @@ export default function ContactForm() {
                             <h3 className="text-center mt-5">Let&#39;s plan the Trip</h3>
                             <Row className="justify-content-md-center align-items-center h-75">
                                 <Col md={6}>
-                                    <div style={{backgroundColor:"#5AACCF",borderRadius:"10px",borderStyle:"groove",borderColor:"#80C271"}} className="text-center font-weight-bold py-5 shadow">
+                                    <div style={{borderRadius:"25px 5px 25px 5px",borderStyle:"groove"}} className="text-center bg-primary font-weight-bold py-5 shadow">
                                         <p className="p-4 text-center font-weight-bold">
-                                            <FaPhoneAlt size={30} color="#1C3F6E"/>
-                                            <a className="text-primary px-2" href="tel:+919789680610">+91 9789680610</a>
+                                            <FaPhoneAlt size={30} color="#fff"/>
+                                            <a className="text-white px-2" href="tel:+919789680610">+91 9789680610</a>
                                         </p>
                                         <p className="p-4">
-                                            <AiTwotoneMail size={30} color="#1C3F6E"/>
-                                            <a className="text-primary px-2" href="mailto:someone@example.com">info@wayfareholidays.com</a>
+                                            <AiTwotoneMail size={30} color="#fff"/>
+                                            <a className="text-white px-2" href="mailto:someone@example.com">info@wayfareholidays.com</a>
                                         </p>
                                     </div>
                                 </Col>
