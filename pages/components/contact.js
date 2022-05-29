@@ -5,6 +5,7 @@ import SSRProvider from 'react-bootstrap/SSRProvider';
 import { ToastContainer,toast } from 'react-nextjs-toast'
 import {FaPhoneAlt} from "react-icons/fa"
 import {AiTwotoneMail} from "react-icons/ai"
+import {FaLongArrowAltRight} from "react-icons/fa"
 
 
 export default function ContactForm() {
@@ -69,7 +70,7 @@ export default function ContactForm() {
                                     </div>
                                 </Col>
                                 <Col md={6} className="p-4">
-                                    <Form onSubmit={handleSubmit} className="shadow-sm p-5 mb-5 bg-body rounded">
+                                    <Form onSubmit={handleSubmit} className="shadow-sm p-5 mb-3 bg-body rounded">
                                         <Form.Group className="mb-3" controlId="formBasicEmail">
                                             <Form.Label>Name</Form.Label>
                                             <Form.Control type="text" onChange={e => setName(e.target.value)} placeholder="Enter Your Name" />
@@ -104,6 +105,7 @@ export default function ContactForm() {
                                     </Form>
                                 </Col>
                             </Row>
+                            <a href="/contact" style={{textAlign: 'end', fontSize:'20px'}} className="d-block my-3 font-weight-bold text-primary text-decoration-none">Know Our Location <FaLongArrowAltRight/></a>
                         <ToastContainer />
                     </Container>
                 </main>
