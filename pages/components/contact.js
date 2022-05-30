@@ -52,7 +52,7 @@ export default function ContactForm() {
 
     return (
         <SSRProvider>
-            <div id="contact">
+            <div id="contact"  className="bg-secondary p-3">
                 <main>
                     <Container>
                             <h3 className="text-center mt-5">Let&#39;s plan the Trip</h3>

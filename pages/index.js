@@ -10,6 +10,7 @@ import { Container } from "react-bootstrap"
 import ContactForm from "./components/contact"
 import Footer from "./components/footer"
 import Testimonials from "./components/testimonial"
+import Services from "./components/services"
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <Header/>
       <Container className="py-5 px-3">
         <LocationTypes/>
+        <Services/>
         <Testimonials/>
       </Container>
       <MemoryBlock/>
