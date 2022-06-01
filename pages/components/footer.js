@@ -1,5 +1,6 @@
 import { Col, Row } from "react-bootstrap"
 import { AiFillFacebook, AiFillInstagram, AiFillTwitterSquare, AiFillYoutube } from "react-icons/ai"
+import Link from "next/link"
 
 const Footer = () =>{
     return(
@@ -7,16 +8,16 @@ const Footer = () =>{
             <div className="footer">
                 <Row>
                     <Col>
-                        <a className="px-3" href="#">
+                        <a href="https://www.facebook.com/Wayfare-Holidays-107585808627384/" target="_blank" rel="noopener noreferrer" className="px-3">
                             <AiFillFacebook size={30}/>
                         </a>
-                        <a className="px-3" href="#">
+                        <a href="https://www.instagram.com/wayfare_holidays/" target="_blank" rel="noopener noreferrer" className="px-3">
                             <AiFillInstagram size={30}/>
                         </a>
                         <a className="px-3" href="#">
                             <AiFillYoutube size={30}/>
                         </a>
-                        <a className="px-3" href="#">
+                        <a href="https://twitter.com/HolidaysWayfare" target="_blank" rel="noopener noreferrer" className="px-3">
                             <AiFillTwitterSquare size={30}/>
                         </a>
                     </Col>
@@ -26,9 +27,9 @@ const Footer = () =>{
                     <ul>
                         <li><a href="#">Contact us</a></li>
                         <li><a href="#">Our Services</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms &amp; Conditions</a></li>
-                        <li><a href="#">Give us a Feeback</a></li>
+                        <li><Link href="/privacy-policy">Privacy Policy</Link></li>
+                        <li><Link href="/terms-and-conditions">Terms &amp; Conditions</Link></li>
+                        <li><a href="">Give us a Feeback</a></li>
                     </ul>
                 </Row>
 

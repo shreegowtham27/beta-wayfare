@@ -1,3 +1,4 @@
+import { NextSeo } from "next-seo";
 import React from "react";
 import { Container, Navbar } from "react-bootstrap";
 import { Parallax, Background } from "react-parallax";
@@ -11,6 +12,31 @@ const ImageUrl= "https://brightcove04pmdo-a.akamaihd.net/5104226627001/510422662
 const AboutUs = () =>{
     return(
         <div className="about">
+            <NextSeo
+                title="Wayfare Holiday - Meet the Team behind this Best Holidays Provider"
+                description="Meet the team behind the best vacation provider in TamilNadu."
+                canonical="https://www.wayfareholidays.com/"
+                openGraph={{
+                url: 'https://www.wayfareholidays.com/about',
+                title: 'Wayfare Holiday - Privacy Policy',
+                description: 'Meet the team behind the best vacation provider in TamilNadu.',
+                images: [
+                    {
+                    url: 'https://www.wayfareholidays.com/logo.jpg',
+                    width: 800,
+                    height: 600,
+                    alt: 'Wayfare Holidays',
+                    type: 'image/jpeg',
+                    }
+                ],
+                site_name: 'https://www.wayfareholidays.com',
+                }}
+                twitter={{
+                handle: '@HolidaysWayfare',
+                site: '@HolidaysWayfare',
+                cardType: 'summary_large_image',
+                }}
+            />
             <NavBar/>
             {/* <Parallax bgImage={ImageUrl} blur={{ min: -1, max: 5 }}>
                 <div className="d-flex justify-content-center align-items-center" style={{ height: 400 }}>
