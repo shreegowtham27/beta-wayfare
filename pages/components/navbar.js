@@ -18,7 +18,7 @@ const NavBar = () =>{
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse className="flex-row justify-content-center text-dark" id="responsive-navbar-nav">
                         <Nav>
-                            <Nav.Link href="/services">Services</Nav.Link>
+                            <Nav.Link href="/our-services">Services</Nav.Link>
                             <Nav.Link href="/about">About</Nav.Link>
                             <Nav.Link href="/testimonials">Testimonials</Nav.Link>
                         </Nav>
