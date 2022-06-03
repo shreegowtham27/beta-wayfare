@@ -6,23 +6,29 @@ import Link from "next/link"
 
 const Header=()=>{
     return(
-        <Container>
-            <Row>
-                <Col md={6} className="p-3"> 
-                    <h1 className="text-center p-2">Travel to Your Dream Destination</h1>
-                    <p>Say hello to the world with us. Wayfare Holidays, the company that strives to cherish your travelling experience. We strive to deliver our customers with the simple and seamless experience from bookings to check ins. Broaden your horizon and feel the force of travelling goodness with us. Bookmark us for your every vacation.</p>
-                    <Link href="#contact">
-                        <button className="btn btn-primary px-5 py-2 text-center text-white p-5" href="#contact">Reserve Ticket</button>
-                    </Link>
-                </Col>
-                <Col md={6}>
-                    <Image
-                        src={BannerPic}
-                        alt="Scenary"
-                    />
-                </Col>
-            </Row>
-        </Container>
+        <div>
+            <Container>
+                <Row className="justify-content-center align-items-center">
+                    <Col md={6} className="p-3"> 
+                        <h1 className="text-center p-2 gradient-text">Travel to Your Dream Destination</h1>
+                        <p style={{fontSize:'16px'}}>Experience the comfort of hassle-free modern and sustainable travel from bookings to checkins. <br/><br/><span className="gradient-text font-weight-bolder"><strong>Explore the charm of exploration with us.</strong></span></p>
+                        <Link href="#contact">
+                            <button className="btn btn-primary px-5 py-2 d-block mx-auto text-white p-5" href="#contact">Reserve Ticket</button>
+                        </Link>
+                    </Col>
+                    <Col md={6} style={{filter: 'drop-shadow(30px 40px 4px #badfc4)'}}>
+                        <Image
+                            src={BannerPic}
+                            alt="Scenary"
+                        />
+                    </Col>
+                </Row>
+            </Container>
+            <div id="seperator" className="h-100">
+                <br/>
+                <br/>
+            </div>
+        </div>
     )
 }
 export default Header

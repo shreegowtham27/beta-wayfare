@@ -212,3 +212,11 @@ $primary : #001738;
     margin:0% 3%;
   }
 }
+
+.gradient-text{
+  background: #001738;
+  background: linear-gradient(to right, #001738 0%, #1ce1ac 100%);
+  background: -webkit-linear-gradient(to right, #001738 0%, #1ce1ac 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
