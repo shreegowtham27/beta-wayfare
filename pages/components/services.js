@@ -3,6 +3,8 @@ import Link from "next/link"
 import {MdOutlineFlightTakeoff, MdFastfood} from "react-icons/md"
 import { FaCcVisa,FaHotel } from "react-icons/fa";
 import {AiFillCar} from "react-icons/ai"
+import { GiPikeman, GiSchoolBag } from "react-icons/gi";
+import { RiShieldCrossFill } from "react-icons/ri";
 
 const Services = ()=>{
     return(
@@ -22,35 +24,52 @@ const Services = ()=>{
                         size={150}
                         color="#fff"
                     />
-                    <h6 className="mt-4 font-weight-bold text-primary">AirTicket</h6>
-                </Col>
-                <Col>
-                    <AiFillCar className="rounded-circle  p-5 mx-2 bg-secondary text-primary"
-                        size={150}
-                        color="#fff"
-                    />
-                    <h6 className="mt-4 font-weight-bold text-primary">Travels</h6>
-                </Col>
-                <Col>
-                    <FaCcVisa  className="rounded-circle  p-5 mx-2 bg-secondary text-primary"
-                        size={150}
-                        color="#fff"
-                    />
-                    <h6 className="mt-4 font-weight-bold text-primary">Visa</h6>
+                    <h6 className="mt-4 font-weight-bold text-primary">Air Ticketing</h6>
                 </Col>
                 <Col>
                     <FaHotel  className="rounded-circle  p-5 mx-2 bg-secondary text-primary"
                         size={150}
                         color="#fff"
                     />
-                    <h6 className="mt-4 font-weight-bold text-primary">Accomodation</h6>
+                    <h6 className="mt-4 font-weight-bold text-primary">Hotels</h6>
                 </Col>
                 <Col>
-                    <MdFastfood  className="rounded-circle  p-5 mx-2 bg-secondary text-primary"
+                    <GiSchoolBag className="rounded-circle  p-5 mx-2 bg-secondary text-primary"
                         size={150}
                         color="#fff"
                     />
-                    <h6 className="mt-4 font-weight-bold text-primary">Food</h6>
+                    <h6 className="mt-4 font-weight-bold text-primary">Land Packages</h6>
+                </Col>
+            </Row>
+            <Row sm={1} md={3} className="py-2 mt-5">
+                <Col>
+                    <AiFillCar className="rounded-circle  p-5 mx-2 bg-secondary text-primary"
+                        size={150}
+                        color="#fff"
+                    />
+                    <h6 className="mt-4 font-weight-bold text-primary">Transportation</h6>
+                </Col>
+                <Col>
+                    <GiPikeman className="rounded-circle  p-5 mx-2 bg-secondary text-primary"
+                        size={150}
+                        color="#fff"
+                    />
+                    <h6 className="mt-4 font-weight-bold text-primary">Guided Tours</h6>
+                </Col>
+                {/* <Col>
+                    <FaCcVisa  className="rounded-circle  p-5 mx-2 bg-secondary text-primary"
+                        size={150}
+                        color="#fff"
+                    />
+                    <h6 className="mt-4 font-weight-bold text-primary">Visa</h6>
+                </Col> */}
+
+                <Col>
+                    <RiShieldCrossFill  className="rounded-circle  p-5 mx-2 bg-secondary text-primary"
+                        size={150}
+                        color="#fff"
+                    />
+                    <h6 className="mt-4 font-weight-bold text-primary">Insurance</h6>
                 </Col>
             </Row>
         </div>

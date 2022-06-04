@@ -25,6 +25,9 @@ const LocationTypes=()=>{
                             <Nav.Item>
                                 <Nav.Link eventKey="culture">Culture</Nav.Link>
                             </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link eventKey="architecture">Architecture</Nav.Link>
+                            </Nav.Item>
                         </Nav>
                     </Col>
                     <Col lg={12}>
@@ -72,6 +75,15 @@ const LocationTypes=()=>{
                                 <Row>
                                     <Col>
                                         <Image width={200} height={200} src="https://source.unsplash.com/random/200x200/?culture"/>
+                                    </Col>
+                                </Row>
+                            </Tab.Pane>
+                            <Tab.Pane eventKey="architecture">
+                                {/* <Sonnet /> */}
+                                <p>Enim aliqua dolor officia laboris proident dolore quis excepteur laboris esse duis laboris. Magna ex duis in culpa. Cillum qui ullamco laboris officia mollit magna. Magna velit ut magna do consectetur nulla Lorem dolor minim ut incididunt. Anim cillum aute sit proident cillum pariatur officia esse et. Nisi proident nulla consequat magna.</p>
+                                <Row>
+                                    <Col>
+                                        <Image width={200} height={200} src="https://source.unsplash.com/random/200x200/?architecture"/>
                                     </Col>
                                 </Row>
                             </Tab.Pane>

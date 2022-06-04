@@ -22,7 +22,7 @@ export default function Home() {
         description="We are the leading provider of holiday packages in and around Tamilnadu at an affordable cost with high quality service."
         canonical="https://www.wayfareholidays.com/"
         openGraph={{
-          url: 'https://www.wayfareholidays.com',
+          url: 'https://www.wayfareholidays.com/',
           title: 'Wayfare Holiday - The best International and Domestic Holiday provider in TamilNadu',
           description: 'We are the leading provider of holiday packages in and around Tamilnadu at an affordable cost with high quality service.',
           images: [
