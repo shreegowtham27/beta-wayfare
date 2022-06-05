@@ -2,7 +2,9 @@ import { useState } from 'react';
 import Head from 'next/head';
 import { Form,Button, Container, Col, Row } from 'react-bootstrap';
 import SSRProvider from 'react-bootstrap/SSRProvider';
-import { ToastContainer,toast } from 'react-nextjs-toast'
+// import { ToastContainer,toast } from 'react-nextjs-toast'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import {FaPhoneAlt} from "react-icons/fa"
 import {AiTwotoneMail} from "react-icons/ai"
 import {FaLongArrowAltRight} from "react-icons/fa"
@@ -37,13 +39,13 @@ export default function ContactForm() {
         console.log(responseData)
 
         if (parseInt(responseData.successCode) === 200){(
-            toast.notify(responseData.body,{
+            toast.success(responseData.body,{
                 duration: 5,
                 type: "success"
             })
         )}else{
             console.log(responseData.body)
-            toast.notify(responseData.body,{
+            toast.error(responseData.body,{
                 duration: 5,
                 type: "error"
             })
@@ -106,7 +108,17 @@ export default function ContactForm() {
                                 </Col>
                             </Row>
                             <a href="/contact" style={{textAlign: 'end', fontSize:'20px'}} className="d-block my-3 font-weight-bold text-primary text-decoration-none">Know Our Location <FaLongArrowAltRight/></a>
-                        <ToastContainer />
+                            <ToastContainer
+                                position="top-center"
+                                autoClose={5000}
+                                hideProgressBar={false}
+                                newestOnTop={false}
+                                closeOnClick
+                                rtl={false}
+                                pauseOnFocusLoss
+                                draggable
+                                pauseOnHover
+                            />
                     </Container>
                 </main>
             </div>
