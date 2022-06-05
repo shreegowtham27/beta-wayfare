@@ -3,7 +3,7 @@ import Link from "next/link"
 import {MdOutlineFlightTakeoff, MdFastfood} from "react-icons/md"
 import { FaCcVisa,FaHotel } from "react-icons/fa";
 import {AiFillCar} from "react-icons/ai"
-import { GiPikeman, GiSchoolBag } from "react-icons/gi";
+import { GiPikeman, GiRollingSuitcase } from "react-icons/gi";
 import { RiShieldCrossFill } from "react-icons/ri";
 
 const Services = ()=>{
@@ -34,7 +34,7 @@ const Services = ()=>{
                     <h6 className="mt-4 font-weight-bold text-primary">Hotels</h6>
                 </Col>
                 <Col>
-                    <GiSchoolBag className="rounded-circle  p-5 mx-2 bg-secondary text-primary"
+                    <GiRollingSuitcase className="rounded-circle  p-5 mx-2 bg-secondary text-primary"
                         size={150}
                         color="#fff"
                     />
