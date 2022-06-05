@@ -8,6 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import {FaPhoneAlt} from "react-icons/fa"
 import {AiTwotoneMail} from "react-icons/ai"
 import {FaLongArrowAltRight} from "react-icons/fa"
+import Link from 'next/link';
 
 
 export default function ContactForm() {
@@ -107,7 +108,7 @@ export default function ContactForm() {
                                     </Form>
                                 </Col>
                             </Row>
-                            <a href="/contact" style={{textAlign: 'end', fontSize:'20px'}} className="d-block my-3 font-weight-bold text-primary text-decoration-none">Know Our Location <FaLongArrowAltRight/></a>
+                            <Link href="/contact" style={{textAlign: 'end', fontSize:'20px'}} className="d-block my-3 font-weight-bold text-primary text-decoration-none">Know Our Location <FaLongArrowAltRight/></Link>
                             <ToastContainer
                                 position="top-center"
                                 autoClose={5000}
