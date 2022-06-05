@@ -26,6 +26,7 @@ const Testimonials = ()=>{
                     <Image
                         className="image"
                         src={TestimonialImg}
+                        loading="lazy"
                         height={500}
                         width={500}
                         alt="Best corporate Travel planner in chennai"
