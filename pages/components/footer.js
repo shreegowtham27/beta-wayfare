@@ -25,7 +25,7 @@ const Footer = () =>{
 
                 <Row>
                     <ul>
-                        <li><a href="#">Contact us</a></li>
+                        <li><Link href="/contact-us">Contact us</Link></li>
                         <li><Link href="/our-services">Our Services</Link></li>
                         <li><Link href="/privacy-policy">Privacy Policy</Link></li>
                         <li><Link href="/terms-and-conditions">Terms &amp; Conditions</Link></li>

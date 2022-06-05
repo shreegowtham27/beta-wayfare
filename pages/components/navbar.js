@@ -24,7 +24,7 @@ const NavBar = () =>{
                         </Nav>
                     </Navbar.Collapse>
                     <Nav id="contact-us">
-                        <Nav.Link id="float-right-button" href="/contact" className="btn text-white btn-primary px-3">Contact Us</Nav.Link>
+                        <Nav.Link id="float-right-button" href="/contact-us" className="btn text-white btn-primary px-3">Contact Us</Nav.Link>
                     </Nav>
             </Container>
         </Navbar>

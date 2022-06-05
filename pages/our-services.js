@@ -8,7 +8,7 @@ import {RiShieldCrossFill,RiHotelFill} from "react-icons/ri"
 import {BsCurrencyExchange} from "react-icons/bs"
 import {AiFillCar} from "react-icons/ai"
 import {GiCommercialAirplane,GiPikeman,GiRollingSuitcase} from "react-icons/gi"
-import ContactForm from "./components/contact"
+import ContactForm from "./components/contactForm"
 import { NextSeo } from "next-seo"
 
 
