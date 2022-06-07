@@ -73,7 +73,7 @@ const OurServices  = () =>{
                 <Row className="p-5 justify-content-center align-items-center">
                     <h2 className="text-primary text-center p-3">Transportation</h2>
                     <Col sm={1} md={4}>
-                        <AiFillCar size={180} className="text-primary d-block mx-auto" />
+                        <AiFillCar size={160} className="text-primary d-block mx-auto" />
                     </Col>
                     <Col sm={1} md={8}>
                         <p style={{fontSize:'24px'}} className="px-2">We provide the best deals that you can get on wheels. From family vehicles to luxury sedans everything you can find right here.</p>
@@ -91,7 +91,7 @@ const OurServices  = () =>{
                 <Row className="bg-white p-5 justify-content-center align-items-center">
                 <h2 className="text-primary text-center p-3">Visa</h2>
                     <Col sm={1} md={4}>
-                        <FaCcVisa size={180} className="text-primary d-block mx-auto" />
+                        <FaCcVisa size={160} className="text-primary d-block mx-auto" />
                     </Col>
                     <Col sm={1} md={8}>
                         <p style={{fontSize:'24px'}} className="px-2"> It may be too late or too early, we will get done your Visa processing on time. Get the hassle-free adventure at every point.</p>
