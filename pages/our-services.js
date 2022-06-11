@@ -19,26 +19,31 @@ const OurServices  = () =>{
                 title="Our Services | Wayfare Holiday"
                 description="Wayfare Holidays provide the best and afforadable tourism package in TamilNadu. Here are a few services provided by wayfare Holidays."
                 canonical="https://www.wayfareholidays.com/"
+                keywords="hotels, flights, travelocity, airline tickets, vacation, trip, plane tickets, travel agency, airlines, cheap airline tickets, airfare, fare, cheap airfare, destination, one travel, package, vacation packages, cheap plane tickets, travel channel, cheap airlines, travel news, budget travel, last minute travel, travel sites, chennai travel, Tamilnadu travel agency, travel agency near me, travel agency in chennai"
                 openGraph={{
                 url: 'https://www.wayfareholidays.com/our-services',
                 title: 'Our Services | Wayfare Holiday',
                 description: 'Wayfare Holidays provide the best and afforadable tourism package in TamilNadu. Here are a few services provided by wayfare Holidays.',
                 images: [
                     {
-                    url: 'https://www.wayfareholidays.com/logo.jpg',
-                    width: 800,
-                    height: 600,
-                    alt: 'Wayfare Holidays',
-                    type: 'image/jpeg',
+                        url: 'https://www.wayfareholidays.com/logo.jpg',
+                        width: 800,
+                        height: 600,
+                        alt: 'Wayfare Holidays',
+                        type: 'image/jpeg',
                     }
                 ],
                 site_name: 'https://www.wayfareholidays.com',
                 }}
                 twitter={{
-                handle: '@HolidaysWayfare',
-                site: '@HolidaysWayfare',
-                cardType: 'summary_large_image',
+                    handle: '@HolidaysWayfare',
+                    site: '@HolidaysWayfare',
+                    cardType: 'summary_large_image',
                 }}
+                additionalMetaTags={[{
+                    property: 'keywords',
+                    content: 'hotels, flights, travelocity, airline tickets, vacation, trip, plane tickets, travel agency, airlines, cheap airline tickets, airfare, fare, cheap airfare, destination, one travel, package, vacation packages, cheap plane tickets, travel channel, cheap airlines, travel news, budget travel, last minute travel, travel sites, chennai travel, Tamilnadu travel agency, travel agency near me, travel agency in chennai'
+                }]}
             />
             <NavBar/>
             <h1 className="text-center text-primary p-5">Our Services</h1>
