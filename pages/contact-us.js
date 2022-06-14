@@ -114,7 +114,7 @@ export default function ContactPage() {
                                         </p>
                                         <p className="p-4">
                                             <FaMapMarkerAlt size={30} color="#fff"/>
-                                            <a className="text-white px-2" href="#">Chennai</a>
+                                            <a className="text-white px-2" href="#">89/91, 2nd Street, <br/>Aspiran Garden, Kilpauk, <br/> Chennai - 600010</a>
                                         </p>
                                     </div>
                                 </Col>
@@ -122,12 +122,12 @@ export default function ContactPage() {
                                     <Form onSubmit={handleSubmit} className="shadow-sm p-5 mb-3 bg-body rounded">
                                         <Form.Group className="mb-3" controlId="formBasicEmail">
                                             <Form.Label>Name</Form.Label>
-                                            <Form.Control type="text" onChange={e => setName(e.target.value)} placeholder="Enter Your Name" />
+                                            <Form.Control type="text" onChange={e => setName(e.target.value)} placeholder="Enter Your Name"  required min="2"/>
                                         </Form.Group>
                                         
                                         <Form.Group className="mb-3" controlId="formBasicEmail">
                                             <Form.Label>Email address</Form.Label>
-                                            <Form.Control type="email" onChange={e => setEmail(e.target.value)} placeholder="Enter Your Email Address" />
+                                            <Form.Control type="email" onChange={e => setEmail(e.target.value)} placeholder="Enter Your Email Address" required min="5"/>
                                             <Form.Text className="text-muted">
                                                 We&apos;ll never share your email with anyone else.
                                             </Form.Text>
@@ -135,17 +135,17 @@ export default function ContactPage() {
 
                                         <Form.Group className="mb-3" controlId="formBasicEmail">
                                             <Form.Label>Phone Number</Form.Label>
-                                            <Form.Control type="text" onChange={e => setPhone(e.target.value)} placeholder="Enter Your Phone Number" />
+                                            <Form.Control type="text" onChange={e => setPhone(e.target.value)} placeholder="Enter Your Phone Number" required min="10" max="10"/>
                                         </Form.Group>
 
                                         <Form.Group className="mb-3" controlId="formBasicEmail">
                                             <Form.Label>City of Residence</Form.Label>
-                                            <Form.Control type="text" onChange={e => setCity(e.target.value)} placeholder="Enter Your Current City" />
+                                            <Form.Control type="text" onChange={e => setCity(e.target.value)} placeholder="Enter Your Current City" required min="2" />
                                         </Form.Group>
 
                                         <Form.Group className="mb-3" controlId="formBasicEmail">
                                             <Form.Label>Travel Destination</Form.Label>
-                                            <Form.Control type="text" onChange={e => setDestination(e.target.value)} placeholder="Enter Your Destination City" />
+                                            <Form.Control type="text" onChange={e => setDestination(e.target.value)} placeholder="Enter Your Destination City"  required min="2"/>
                                         </Form.Group>
 
                                         <Button variant="primary" className="d-block mx-auto px-5" size="lg" type="submit">

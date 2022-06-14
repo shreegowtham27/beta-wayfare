@@ -7,6 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import {FaPhoneAlt} from "react-icons/fa"
 import {AiTwotoneMail} from "react-icons/ai"
 import {FaLongArrowAltRight} from "react-icons/fa"
+import Link from 'next/link';
 
 
 export default function ContactForm() {
@@ -84,12 +85,12 @@ export default function ContactForm() {
                                     <Form onSubmit={handleSubmit} className="shadow-sm p-5 mb-3 bg-body rounded">
                                         <Form.Group className="mb-3" controlId="formBasicEmail">
                                             <Form.Label>Name</Form.Label>
-                                            <Form.Control type="text" onChange={e => setName(e.target.value)} placeholder="Enter Your Name" />
+                                            <Form.Control type="text" onChange={e => setName(e.target.value)} placeholder="Enter Your Name"  required min="2"/>
                                         </Form.Group>
                                         
                                         <Form.Group className="mb-3" controlId="formBasicEmail">
                                             <Form.Label>Email address</Form.Label>
-                                            <Form.Control type="email" onChange={e => setEmail(e.target.value)} placeholder="Enter Your Email Address" />
+                                            <Form.Control type="email" onChange={e => setEmail(e.target.value)} placeholder="Enter Your Email Address" required min="5"/>
                                             <Form.Text className="text-muted">
                                                 We&apos;ll never share your email with anyone else.
                                             </Form.Text>
@@ -97,17 +98,17 @@ export default function ContactForm() {
 
                                         <Form.Group className="mb-3" controlId="formBasicEmail">
                                             <Form.Label>Phone Number</Form.Label>
-                                            <Form.Control type="text" onChange={e => setPhone(e.target.value)} placeholder="Enter Your Phone Number" />
+                                            <Form.Control type="text" onChange={e => setPhone(e.target.value)} placeholder="Enter Your Phone Number" required min="10" max="10"/>
                                         </Form.Group>
 
                                         <Form.Group className="mb-3" controlId="formBasicEmail">
                                             <Form.Label>City of Residence</Form.Label>
-                                            <Form.Control type="text" onChange={e => setCity(e.target.value)} placeholder="Enter Your Current City" />
+                                            <Form.Control type="text" onChange={e => setCity(e.target.value)} placeholder="Enter Your Current City" required min="2" />
                                         </Form.Group>
 
                                         <Form.Group className="mb-3" controlId="formBasicEmail">
                                             <Form.Label>Travel Destination</Form.Label>
-                                            <Form.Control type="text" onChange={e => setDestination(e.target.value)} placeholder="Enter Your Destination City" />
+                                            <Form.Control type="text" onChange={e => setDestination(e.target.value)} placeholder="Enter Your Destination City"  required min="2"/>
                                         </Form.Group>
 
                                         <Button variant="primary" className="d-block mx-auto px-5" size="lg" type="submit">
@@ -116,7 +117,9 @@ export default function ContactForm() {
                                     </Form>
                                 </Col>
                             </Row>
-                            <a href="/contact" style={{textAlign: 'end', fontSize:'20px'}} className="d-block my-3 font-weight-bold text-primary text-decoration-none">Know Our Location <FaLongArrowAltRight/></a>
+                            <div style={{textAlign: 'end', fontSize:'20px'}} className="d-block my-3 font-weight-bold text-primary text-decoration-none">
+                                <Link style={{textDecoration:"none"}} href="/contact-us">Know Our Location</Link><FaLongArrowAltRight/>
+                            </div>
                         <ToastContainer />
                     </Container>
                 </main>

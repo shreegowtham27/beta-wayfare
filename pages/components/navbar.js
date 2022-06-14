@@ -20,11 +20,11 @@ const NavBar = () =>{
                         <Nav>
                             <Nav.Link href="/our-services">Services</Nav.Link>
                             <Nav.Link href="/about">About</Nav.Link>
-                            <Nav.Link href="/testimonials">Testimonials</Nav.Link>
+                            {/* <Nav.Link href="/testimonials">Testimonials</Nav.Link> */}
                         </Nav>
                     </Navbar.Collapse>
                     <Nav id="contact-us">
-                        <Nav.Link id="float-right-button" href="/contact-us" className="btn text-white btn-primary px-3">Contact Us</Nav.Link>
+                        <Nav.Link id="float-right-button" href="/contact-us" style={{backgroundColor:"#1c3f6e"}} className="btn text-white px-3">Contact Us</Nav.Link>
                     </Nav>
             </Container>
         </Navbar>

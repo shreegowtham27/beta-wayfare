@@ -434,7 +434,7 @@ const LocationTypes=()=>{
                                         <p className="text-primary text-center">Mahaballipuram </p>
                                     </Col>
                                     <Col>
-                                        <Image width={300} height={300} src="https://source.unsplash.com/random/300x300/?Madurai"/>
+                                        <Image width={300} height={300} src="https://source.unsplash.com/random/300x300/?Madurai" alt="Madurai trip providers wayfare Holidays"/>
                                         <h4 className="text-primary text-center mt-4">Madurai</h4>
                                         <p className="text-primary text-center">Madurai</p>
                                     </Col>
