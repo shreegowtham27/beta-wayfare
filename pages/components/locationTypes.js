@@ -46,12 +46,12 @@ const LocationTypes=()=>{
                                         <p className="text-primary text-center">Place</p>
                                     </Col>
                                     <Col className="mt-4">
-                                        <Image className="rounded" src="/vacation-spots/chennai-bridge.jpg" height={500} width={600} loading="lazy"/>
-                                        <h4 className="text-primary text-center mt-4">Bridge</h4>
+                                        <Image className="rounded" src="https://images.unsplash.com/photo-1612251220151-25625777dd9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" height={500} width={600} loading="lazy"/>
+                                        <h4 className="text-primary text-center mt-4">Napier Bridge</h4>
                                         <p className="text-primary text-center">Chennai,TamilNadu</p>
                                     </Col>
                                     <Col className="mt-4">
-                                        <Image className="rounded" src="/vacation-spots/falls-2.JPG" height={500} width={600} loading="lazy"/>
+                                        <Image className="rounded" src="https://source.unsplash.com/random/200x200/?waterfalls" height={500} width={600} loading="lazy"/>
                                         <h4 className="text-primary text-center mt-4">Falls</h4>
                                         <p className="text-primary text-center">Place</p>
                                     </Col>
@@ -81,7 +81,7 @@ const LocationTypes=()=>{
                                         <p className="text-primary text-center">pondicherry</p>
                                     </Col>
                                     <Col className="mt-4">
-                                        <Image className="rounded" src="/vacation-spots/falls.JPG" height={500} width={400} loading="lazy"/>
+                                        <Image className="rounded" src="https://source.unsplash.com/random/200x200/?falls" height={500} width={400} loading="lazy"/>
                                         <h4 className="text-primary text-center mt-4">Architecture</h4>
                                         <p className="text-primary text-center">Place</p>
                                     </Col>
@@ -91,7 +91,7 @@ const LocationTypes=()=>{
                                         <p className="text-primary text-center">Chennai, TamilNadu</p>
                                     </Col>
                                     <Col className="mt-4">
-                                        <Image className="rounded" src="/vacation-spots/Tanjore-periya-kovil.jpg" height={500} width={400} loading="eager"/>
+                                        <Image className="rounded" src="/vacation-spots/tanjore-temple.jpg" height={500} width={400} loading="eager"/>
                                         <h4 className="text-primary text-center mt-4">Tanjai Periya Kovil</h4>
                                         <p className="text-primary text-center">Tanjore, TamilNadu</p>
                                     </Col>

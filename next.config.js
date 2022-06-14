@@ -9,7 +9,7 @@ module.exports = ({
     sassOptions: {includePaths: [path.join(__dirname, 'styles')],
   },
   images: {
-    domains: ['source.unsplash.com'],
+    domains: ['source.unsplash.com','images.unsplash.com'],
   },
   env: {
     "MAILGUN_API_KEY":process.env.MAILGUN_API_KEY,
