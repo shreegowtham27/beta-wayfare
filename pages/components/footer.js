@@ -14,7 +14,7 @@ const Footer = () =>{
                         <a href="https://www.instagram.com/wayfare_holidays/" target="_blank" rel="noopener noreferrer" className="px-3">
                             <AiFillInstagram size={30}/>
                         </a>
-                        <a className="px-3" href="#">
+                        <a className="px-3" href="https://www.youtube.com/channel/UCiKONCW2HCHWqwZ1-BQ8KBQ" target="_blank" rel="noopener noreferrer">
                             <AiFillYoutube size={30}/>
                         </a>
                         <a href="https://twitter.com/HolidaysWayfare" target="_blank" rel="noopener noreferrer" className="px-3">
@@ -29,7 +29,7 @@ const Footer = () =>{
                         <li><Link href="/our-services">Our Services</Link></li>
                         <li><Link href="/privacy-policy">Privacy Policy</Link></li>
                         <li><Link href="/terms-and-conditions">Terms &amp; Conditions</Link></li>
-                        <li><a href="">Give us a Feeback</a></li>
+                        <li><a href="https://g.page/r/CSxJBUxLAvBdEAI/review" target="_blank" rel="noopener noreferrer">Give us a Feeback</a></li>
                     </ul>
                 </Row>
 
