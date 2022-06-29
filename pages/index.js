@@ -53,7 +53,7 @@ export default function Home() {
       <Container className="py-5 px-3">
         <LocationTypes/>
         <Services/>
-        {/* <Testimonials/> */}
+        <Testimonials/>
       </Container>
       <MemoryBlock/>
       <ContactForm/>
