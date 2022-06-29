@@ -13,13 +13,13 @@ const AboutUs = () =>{
     return(
         <div className="about">
             <NextSeo
-                title="Meet the Team behind the Best Holidays Provider | About Wayfare Holiday"
+                title="About Wayfare Holidays | The Best Tour Operator provider in Chennai and TamilNadu"
                 description="Meet the team behind the best vacation provider in TamilNadu."
                 canonical="https://www.wayfareholidays.com/"
                 keywords="hotels, flights, travelocity, airline tickets, vacation, trip, plane tickets, travel agency, airlines, cheap airline tickets, airfare, fare, cheap airfare, destination, one travel, package, vacation packages, cheap plane tickets, travel channel, cheap airlines, travel news, budget travel, last minute travel, travel sites, chennai travel, Tamilnadu travel agency, travel agency near me, travel agency in chennai"
                 openGraph={{
                 url: 'https://www.wayfareholidays.com/about',
-                title: 'Wayfare Holiday - Privacy Policy',
+                title: 'About Wayfare Holidays | The Best Tour Operator provider in Chennai and TamilNadu',
                 description: 'Meet the team behind the best vacation provider in TamilNadu.',
                 images: [
                     {
