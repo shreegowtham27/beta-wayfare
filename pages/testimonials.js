@@ -81,7 +81,7 @@ const TestimonialPage = ()=>{
             <hr className="p-3"/>
 
             <h3 className="text-center p-3"> 
-                <a className="text-decoration-none text-success" href="https://g.page/r/CSxJBUxLAvBdEAI/review" rel="noopener nofollow" target="_blank">
+                <a className="text-decoration-none text-success" href="https://g.page/r/CSxJBUxLAvBdEAI/review" target="_blank" rel="noopener noreferrer">
                     Be one of them to share your experience with us  <FaArrowRight/>
                 </a>
             </h3>
