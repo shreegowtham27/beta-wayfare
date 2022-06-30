@@ -1,4 +1,3 @@
-import { NextSeo } from "next-seo"
 import Image from "next/image"
 import { Card, Col, Row } from "react-bootstrap"
 import TestimonialImg from "../Images/testimonial.png"
@@ -6,36 +5,6 @@ import TestimonialImg from "../Images/testimonial.png"
 const Testimonials = ()=>{
     return(
         <div>
-            <NextSeo
-                title="Testimonials | Wayfare Holiday"
-                description="Know What people say about the best tour operator - Wayfare Holidays."
-                canonical="https://www.wayfareholidays.com/"
-                keywords="hotels, flights, travelocity, airline tickets, vacation, trip, plane tickets, travel agency, airlines, cheap airline tickets, airfare, fare, cheap airfare, destination, one travel, package, vacation packages, cheap plane tickets, travel channel, cheap airlines, travel news, budget travel, last minute travel, travel sites, chennai travel, Tamilnadu travel agency, travel agency near me, travel agency in chennai"
-                openGraph={{
-                url: 'https://www.wayfareholidays.com/',
-                title: 'The Best International & Domestic Holiday provider in TamilNadu|Wayfare Holiday',
-                description: 'Know What people say about the best tour operator - Wayfare Holidays.',
-                images: [
-                    {
-                    url: 'https://www.wayfareholidays.com/logo.jpg',
-                    width: 800,
-                    height: 600,
-                    alt: 'Wayfare Holidays',
-                    type: 'image/jpeg',
-                    }
-                ],
-                site_name: 'https://www.wayfareholidays.com/testimonials',
-                }}
-                twitter={{
-                handle: '@HolidaysWayfare',
-                site: '@HolidaysWayfare',
-                cardType: 'summary_large_image',
-                }}
-                additionalMetaTags={[{
-                property: 'keywords',
-                content: 'hotels, flights, travelocity, airline tickets, vacation, trip, plane tickets, travel agency, airlines, cheap airline tickets, airfare, fare, cheap airfare, destination, one travel, package, vacation packages, cheap plane tickets, travel channel, cheap airlines, travel news, budget travel, last minute travel, travel sites, chennai travel, Tamilnadu travel agency, travel agency near me, travel agency in chennai'
-                }]}
-            />
             <h3 className="text-primary text-center p-5">Testimonials</h3>
             <Row className="justify-content-center align-items-center">
                 <Col md={6} sm={1}>

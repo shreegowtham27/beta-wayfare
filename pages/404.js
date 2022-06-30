@@ -9,7 +9,7 @@ export default function FourOhFour() {
     return (
         <>
             <NextSeo
-                title="404 - Page Not Found | Wayfare Holiday"
+                title="404 - Page Not Found |  Wayfare Holidays"
                 description="404 - Page Not Found | Wayfare Holidays."
                 canonical="https://www.wayfareholidays.com/"
                 keywords="hotels, flights, travelocity, airline tickets, vacation, trip, plane tickets, travel agency, airlines, cheap airline tickets, airfare, fare, cheap airfare, destination, one travel, package, vacation packages, cheap plane tickets, travel channel, cheap airlines, travel news, budget travel, last minute travel, travel sites, chennai travel, Tamilnadu travel agency, travel agency near me, travel agency in chennai"
