@@ -33,7 +33,7 @@ const LocationTypes=()=>{
                     <Col lg={12}>
                         <Tab.Content>
                             <Tab.Pane eventKey="all">
-                                <h3 className="text-center p-3">Let’s wayfare the world together.</h3>
+                                <h3 className="text-center p-3">Enrich your Memories with us.</h3>
                                 <Row xs={1} md={3} className="mx-auto mt-4">
                                     <Col className="mt-4">
                                         <Image className="rounded" style={{borderRadius:'20px'}} src="/vacation-spots/arch.jpg" height={500} width={600} loading="lazy"/>
@@ -275,7 +275,7 @@ const LocationTypes=()=>{
                                     </Row>
                             </Tab.Pane>
                             <Tab.Pane eventKey="city">
-                                <h3 className="text-center p-3">Mege into the magnificence of cityscapes.</h3>
+                                <h3 className="text-center p-3">Merge into the magnificence of cityscapes.</h3>
                                 <Row xs={1} md={3} className="mx-auto mt-4">
                                     <Col>
                                         <Image width={300} height={300} src="https://source.unsplash.com/random/300x300/?Chennai"/>
@@ -350,7 +350,7 @@ const LocationTypes=()=>{
                                 </Row>
                             </Tab.Pane>
                             <Tab.Pane eventKey="culture">
-                                <h3 className="text-center p-3">The art of culture at every touch [or] Let’s embrace culture in every touch.</h3>
+                                <h3 className="text-center p-3">Let’s embrace culture in every touch.</h3>
                                 <Row xs={1} md={3} className="mx-auto mt-4">
                                     <Col>
                                         <Image width={300} height={300} src="https://source.unsplash.com/random/300x300/?Kannur"/>

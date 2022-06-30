@@ -11,7 +11,7 @@ const Services = ()=>{
         <div className="p-5 text-center mx-auto">
             <h1 className="text-primary">Our Services</h1>
             <br/>
-            <p style={{color:"#80C271"}}>This is a world where you can find infinite adventures, and we accommodate you in exploring it by providing your need.</p>
+            <p className="text-primary">This is a world where you can find infinite adventures, and we accommodate you in exploring it by providing your need.</p>
             <br/>
             {/* <Link href="#contact">
                 <button className="btn btn-outline-light px-4 py-2">
