@@ -73,11 +73,11 @@ export default function ContactForm() {
                                     <div style={{borderRadius:"25px 5px 25px 5px",borderStyle:"groove"}} className="text-center bg-primary font-weight-bold py-5 shadow">
                                         <p className="p-4 text-center font-weight-bold">
                                             <FaPhoneAlt size={30} color="#fff"/>
-                                            <a className="text-white px-2" href="tel:+919360926290">+91 9360926290</a>
+                                            <a title="Wayfare Holidays Contact Number" className="text-white px-2" href="tel:+919360926290">+91 9360926290</a>
                                         </p>
                                         <p className="p-4">
                                             <AiTwotoneMail size={30} color="#fff"/>
-                                            <a className="text-white px-2" href="mailto:someone@example.com">info@wayfareholidays.com</a>
+                                            <a title="Email to Wayfare Holidays" className="text-white px-2" href="mailto:someone@example.com">info@wayfareholidays.com</a>
                                         </p>
                                     </div>
                                 </Col>

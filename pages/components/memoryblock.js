@@ -4,7 +4,7 @@ import Link from "next/link"
 const MemoryBlock = ()=>{
     return(
         <div className="bg-primary p-5 text-center mx-auto">
-            <h1 className="text-light">Create a Memory to Remember</h1>
+            <h2 className="text-light">Create a Memory to Remember</h2>
             <br/>
             <p><span className="text-white text-center font-weight-bolder d-block"><strong>Enrich your Memories with us</strong></span></p>
             <br/>

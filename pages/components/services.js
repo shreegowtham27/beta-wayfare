@@ -9,7 +9,7 @@ import { RiHotelFill, RiShieldCrossFill } from "react-icons/ri";
 const Services = ()=>{
     return(
         <div className="p-5 text-center mx-auto">
-            <h1 className="text-primary">Our Services</h1>
+            <h2 className="text-primary">Our Services</h2>
             <br/>
             <p className="text-primary">This is a world where you can find infinite adventures, and we accommodate you in exploring it by providing your need.</p>
             <br/>

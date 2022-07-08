@@ -106,15 +106,15 @@ export default function ContactPage() {
                                     <div style={{borderRadius:"25px 5px 25px 5px",borderStyle:"groove"}} className="text-center bg-primary font-weight-bold py-5 shadow">
                                         <p className="p-4 text-center font-weight-bold">
                                             <FaPhoneAlt size={30} color="#fff"/>
-                                            <a className="text-white px-2" href="tel:+919360926290">+91 9360926290</a>
+                                            <a title="Wayfare Holidays Contact Number" className="text-white px-2" href="tel:+919360926290">+91 9360926290</a>
                                         </p>
                                         <p className="p-4">
                                             <AiTwotoneMail size={30} color="#fff"/>
-                                            <a className="text-white px-2" href="mailto:someone@example.com">info@wayfareholidays.com</a>
+                                            <a className="text-white px-2" title="Email to Wayfare Holidays" href="mailto:someone@example.com">info@wayfareholidays.com</a>
                                         </p>
                                         <p className="p-4">
                                             <FaMapMarkerAlt size={30} color="#fff"/>
-                                            <a className="text-white px-2" href="#">89/91, 2nd Street, <br/>Aspiran Garden, Kilpauk, <br/> Chennai - 600010</a>
+                                            <a title="Wayfare Holidays Location" className="text-white px-2" href="#">89/91, 2nd Street, <br/>Aspiran Garden, Kilpauk, <br/> Chennai - 600010</a>
                                         </p>
                                     </div>
                                 </Col>

@@ -29,12 +29,12 @@ const Footer = () =>{
                         <li><Link href="/our-services">Our Services</Link></li>
                         <li><Link href="/privacy-policy">Privacy Policy</Link></li>
                         <li><Link href="/terms-and-conditions">Terms &amp; Conditions</Link></li>
-                        <li><a href="https://g.page/r/CSxJBUxLAvBdEAI/review" target="_blank" rel="noopener noreferrer">Give us a Feeback</a></li>
+                        <li><a title="Leave a Feedback to Wayfare Holidays" href="https://g.page/r/CSxJBUxLAvBdEAI/review" target="_blank" rel="noopener noreferrer">Give us a Feeback</a></li>
                     </ul>
                 </Row>
 
                 <Row>
-                    <p><a href="https://www.wayfareholidays.com">Wayfare Holidays</a> Copyright © 2022 - All rights reserved</p>
+                    <p><a title="Best Travel Operator - Wayfare Holidays" href="https://www.wayfareholidays.com">Wayfare Holidays</a> Copyright © 2022 - All rights reserved</p>
                 </Row>
             </div>
         </footer>
