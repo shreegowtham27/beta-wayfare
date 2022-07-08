@@ -359,7 +359,7 @@ const LocationTypes=()=>{
                             <Tab.Pane eventKey="city">
                                 <h3 className="text-center p-3">Merge into the magnificence of cityscapes.</h3>
                                 <Row xs={1} md={3} className="mx-auto mt-4">
-                                    <Col>
+                                    {/* <Col>
                                         <Image width={300} height={300} src="https://source.unsplash.com/random/300x300/?Chennai"/>
                                         <h4 className="text-primary text-center mt-4">Chennai</h4>
                                         <p className="text-primary text-center">Chennai</p>
@@ -428,7 +428,59 @@ const LocationTypes=()=>{
                                         <Image width={300} height={300} src="https://source.unsplash.com/random/300x300/?Port Balair"/>
                                         <h4 className="text-primary text-center mt-4">Port Balair</h4>
                                         <p className="text-primary text-center">Port Balair</p>
+                                    </Col> */}
+
+                                    <Col>
+                                        <Image class="lazy" data-src="https://via.placeholder.com/300.png/09f/fff" data-srcset="https://via.placeholder.com/300.png/09f/f2f, https://via.placeholder.com/300.png/09f/abc" width={300} height={300} src="/vacation-spots/WayfareHolidays/cityscape-hd/bangalore-city.jpg" alt="Bangalore Trips"/>
+                                        <h4 className="text-primary text-center mt-4">Bangalore</h4>
+                                        <p className="text-primary text-center">Bangalore</p>
                                     </Col>
+                                    {/* <Col>
+                                        <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/cityscape-hd/bangalore.jpg"/>
+                                        <h4 className="text-primary text-center mt-4">Bangalore</h4>
+                                        <p className="text-primary text-center">Bangalore</p>
+                                    </Col> */}
+                                    <Col>
+                                        <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/cityscape-hd/chennai-city.jpg" alt="Chennai Trips"/>
+                                        <h4 className="text-primary text-center mt-4">Chennai</h4>
+                                        <p className="text-primary text-center">Chennai</p>
+                                    </Col>
+                                    <Col>
+                                        <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/cityscape-hd/chennai.jpg" alt="Chennai Trips"/>
+                                        <h4 className="text-primary text-center mt-4">Chennai</h4>
+                                        <p className="text-primary text-center">Chennai</p>
+                                    </Col>
+                                    <Col>
+                                        <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/cityscape-hd/madurai.jpg" alt="Madurai Trips and Madurai Temple Plans , Temple City of TamilNadu"/>
+                                        <h4 className="text-primary text-center mt-4">Madurai</h4>
+                                        <p className="text-primary text-center">Madurai</p>
+                                    </Col>
+                                    <Col>
+                                        <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/cityscape-hd/mumbai.jpg" alt="Mumbai Trips"/>
+                                        <h4 className="text-primary text-center mt-4">Mumbai</h4>
+                                        <p className="text-primary text-center">Mumbai</p>
+                                    </Col>
+                                    <Col>
+                                        <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/cityscape-hd/new-delhi.jpg"/>
+                                        <h4 className="text-primary text-center mt-4">New Delhi</h4>
+                                        <p className="text-primary text-center">New Delhi</p>
+                                    </Col>
+                                    <Col>
+                                        <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/cityscape-hd/pondicherry-aerial.jpg"/>
+                                        <h4 className="text-primary text-center mt-4">Pondicherry</h4>
+                                        <p className="text-primary text-center">Pondicherry</p>
+                                    </Col>
+                                    <Col>
+                                        <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/cityscape-hd/pondicherry.jpg"/>
+                                        <h4 className="text-primary text-center mt-4">Pondicherry</h4>
+                                        <p className="text-primary text-center">Pondicherry</p>
+                                    </Col>
+                                    <Col>
+                                        <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/cityscape-hd/trichy.jpg"/>
+                                        <h4 className="text-primary text-center mt-4">Trichy</h4>
+                                        <p className="text-primary text-center">Trichy</p>
+                                    </Col>
+
                                 </Row>
                             </Tab.Pane>
                             <Tab.Pane eventKey="culture">
