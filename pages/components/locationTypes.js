@@ -189,7 +189,7 @@ const LocationTypes=()=>{
                                 {/* <Sonnet /> */}
                                 <h3 className="text-center p-3">Get the wave of happiness.</h3>
                                     <Row xs={1} md={3} className="mx-auto mt-4">
-                                        <Col>
+                                        {/* <Col>
                                             <Image width={300} height={300} src="https://source.unsplash.com/random/300x300/?Gokarna"/>
                                             <h4 className="text-primary text-center mt-4">Gokarna</h4>
                                             <p className="text-primary text-center">Gokarna, Tamil Nadu</p>
@@ -271,7 +271,89 @@ const LocationTypes=()=>{
                                             <Image width={300} height={300} src="https://source.unsplash.com/random/300x300/?Allepey/Kumarakom"/>
                                             <h4 className="text-primary text-center mt-4">Allepey/Kumarakom</h4>
                                             <p className="text-primary text-center">Allepey/Kumarakom, Tamil Nadu</p>
+                                        </Col> */}
+
+                                        <Col>
+                                            <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/beaches-hd/allepey-kumarakom.jpg"/>
+                                            <h4 className="text-primary text-center mt-4">Allepey-kumarakom</h4>
+                                            <p className="text-primary text-center">Gokarna, Tamil Nadu</p>
                                         </Col>
+                                        <Col>
+                                            <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/beaches-hd/andaman.jpg"/>
+                                            <h4 className="text-primary text-center mt-4">Andaman</h4>
+                                            <p className="text-primary text-center">Gokarna, Tamil Nadu</p>
+                                        </Col>
+                                        <Col>
+                                            <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/beaches-hd/banasusagar-dam-kerala.jpg"/>
+                                            <h4 className="text-primary text-center mt-4">Banasusagar Dam</h4>
+                                            <p className="text-primary text-center">Gokarna, Tamil Nadu</p>
+                                        </Col>
+                                        <Col>
+                                            <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/beaches-hd/goa.jpg"/>
+                                            <h4 className="text-primary text-center mt-4">Goa</h4>
+                                            <p className="text-primary text-center">Gokarna, Tamil Nadu</p>
+                                        </Col>
+                                        {/* <Col>
+                                            <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/beaches-hd/goa-sunset.jpg"/>
+                                            <h4 className="text-primary text-center mt-4">goa-sunset</h4>
+                                            <p className="text-primary text-center">Gokarna, Tamil Nadu</p>
+                                        </Col> */}
+                                        <Col>
+                                            <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/beaches-hd/gokarna.jpg"/>
+                                            <h4 className="text-primary text-center mt-4">Gokarna</h4>
+                                            <p className="text-primary text-center">Gokarna, Tamil Nadu</p>
+                                        </Col>
+                                        <Col>
+                                            <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/beaches-hd/kanyakumari.jpg"/>
+                                            <h4 className="text-primary text-center mt-4">Kanyakumari</h4>
+                                            <p className="text-primary text-center">Kanyakumari, Tamil Nadu</p>
+                                        </Col>
+                                        <Col>
+                                            <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/beaches-hd/kovalam.jpg"/>
+                                            <h4 className="text-primary text-center mt-4">Kovalam</h4>
+                                            <p className="text-primary text-center">Kovalam, Tamil Nadu</p>
+                                        </Col>
+                                        <Col>
+                                            <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/beaches-hd/lakshadweep.jpg"/>
+                                            <h4 className="text-primary text-center mt-4">Lakshadweep</h4>
+                                            <p className="text-primary text-center">Lakshadweep</p>
+                                        </Col>
+                                        <Col>
+                                            <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/beaches-hd/munroe-island.jpg"/>
+                                            <h4 className="text-primary text-center mt-4">Munroe Island</h4>
+                                            <p className="text-primary text-center">Gokarna, Tamil Nadu</p>
+                                        </Col>
+                                        <Col>
+                                            <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/beaches-hd/pondicherry.jpg"/>
+                                            <h4 className="text-primary text-center mt-4">Pondicherry</h4>
+                                            <p className="text-primary text-center">Pondicherry</p>
+                                        </Col>
+                                        <Col>
+                                            <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/beaches-hd/poovar-island.jpg"/>
+                                            <h4 className="text-primary text-center mt-4">Poovar Island</h4>
+                                            <p className="text-primary text-center">Gokarna, Tamil Nadu</p>
+                                        </Col>
+                                        <Col>
+                                            <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/beaches-hd/poovar.jpg"/>
+                                            <h4 className="text-primary text-center mt-4">Poovar</h4>
+                                            <p className="text-primary text-center">Gokarna, Tamil Nadu</p>
+                                        </Col>
+                                        <Col>
+                                            <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/beaches-hd/rameshwaram.jpg"/>
+                                            <h4 className="text-primary text-center mt-4">Rameshwaram</h4>
+                                            <p className="text-primary text-center">Rameshwaram, Tamil Nadu</p>
+                                        </Col>
+                                        <Col>
+                                            <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/beaches-hd/valparai.jpg"/>
+                                            <h4 className="text-primary text-center mt-4">Valparai</h4>
+                                            <p className="text-primary text-center">Valparai, Tamil Nadu</p>
+                                        </Col>
+                                        <Col>
+                                            <Image width={300} height={300} src="/vacation-spots/WayfareHolidays/beaches-hd/varkala.jpg"/>
+                                            <h4 className="text-primary text-center mt-4">Varkala</h4>
+                                            <p className="text-primary text-center">Gokarna, Tamil Nadu</p>
+                                        </Col>
+
                                     </Row>
                             </Tab.Pane>
                             <Tab.Pane eventKey="city">
